@@ -96,7 +96,98 @@
       </div>
     </nav>
 
-    <h1></h1>
+    <br />
+    <!-- Mainpage grid layout -->
+
+    <div class="container-fluid">
+      <div class="row">
+        <!-- Project explanation section -->
+        <div class="col-lg-8 col-md-8 col-sm-6 col-xm-12">
+          <article class="project-description">
+            <h1 class="project-header">
+              Project Summary: <br />
+              Latitude vs X
+            </h1>
+            <hr />
+            <p class="project-summary">
+              Whether financial, political, or social -- data's true power lies
+              in its ability to answer questions definitively. Taking what we've
+              learned so far from Python requests, utilization of API's, and
+              interpreting JSON, we should be able to answer a fundamental
+              question:
+              <br />
+              <em>"What's the weather like as we approach the equator?"</em>
+            </p>
+            <p>
+              To answer this question, we required extensive analysis of a large
+              amount of data, which came from the OpenWeatherMap API. Using
+              this, we were able to randomly choose 500 unique cities to analyze
+              for trends.
+            </p>
+            <img
+              class="img-fluid"
+              src="https://images.unsplash.com/photo-1454789476662-53eb23ba5907?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fHN0b3JtfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60"
+              alt="Latitude vs Max Temp"
+              id="project-summary-image"
+            />
+            <br />
+          </article>
+        </div>
+
+        <!-- Visualization links section -->
+        <div class="col-lg-4 col-md-4 col-sm-6 col-xm-12">
+          <section id="image-nav-area">
+            <div class="image-nav-content">
+              <h2 class="image-nav-header">Visualizations</h2>
+              <hr />
+              <div id="images">
+                <div class="row" id="outer">
+                  <div>
+                    <h3>Latitude vs Max Temperature</h3>
+                    <a href="temp.html"
+                      ><img
+                        class="img-fluid"
+                        src="/Resources/assets/images/max_temp.png"
+                        alt="Latitude vs Max Temp Graph"
+                    /></a>
+                  </div>
+
+                  <div>
+                    <h3>Latitude vs Humidity</h3>
+                    <a href="humidity.html"
+                      ><img
+                        class="img-fluid"
+                        src="/Resources/assets/images/humidity.png"
+                        alt="Latitude vs Humidity Graph"
+                    /></a>
+                  </div>
+
+                  <div>
+                    <h3>Latitude vs Windiness</h3>
+                    <a href="wind.html"
+                      ><img
+                        class="img-fluid"
+                        src="/Resources/assets/images/wind.png"
+                        alt="Latitude vs Windiness Graph"
+                    /></a>
+                  </div>
+
+                  <div>
+                    <h3>Latitude vs Cloudiness</h3>
+                    <a href="cloudiness.html"
+                      ><img
+                        class="img-fluid"
+                        src="/Resources/assets/images/cloudiness.png"
+                        alt="Latitude vs Cloudiness Graph"
+                    /></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
 
     <!-- Separate scripts solution -->
     <script
